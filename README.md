@@ -2,7 +2,7 @@
 
 
 This is  newsapi-easy package. You can use
-[Github-flavored Markdown](https://github.com/jojotime7x/newsapi-easy/)
+[apinews-easy](https://github.com/jojotime7x/newsapi-easy/)
 
 
 you can consume this API using the  pip manager
