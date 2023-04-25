@@ -1,0 +1,18 @@
+[project]
+name = "newsapi-easy"
+version = "0.0.1"
+authors = [
+  { name="jojo", email="jojotime7x@gmail.com" },
+]
+description = "newsapi-easy is with defined views to consume in your application with just simple import of the package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jojotime7x/newsapi-easy"
+"Bug Tracker" = "https://github.com/jojotime7x/newsapi-easy/issues"
