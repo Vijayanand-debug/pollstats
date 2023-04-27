@@ -1,3 +1,2 @@
-env/
-_pychache_/
-```
+/venv/
+.pypirc

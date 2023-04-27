@@ -1,18 +1,18 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="newsopen-easey",
+    name="pollstats",
     version="0.1",
     packages=find_packages(),
     install_requires=[
         # List your package's dependencies here
     ],
     author="Vijayanand",
-    author_email="x22147802@student.ncirl.ie",
+    author_email="vijayanand563@gmail.com",
     description="A short description of your package",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/x22147802/pollstats",
+    url="https://github.com/Vijayanand-debug/pollstats",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
