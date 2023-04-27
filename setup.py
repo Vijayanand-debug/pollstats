@@ -7,12 +7,12 @@ setup(
     install_requires=[
         # List your package's dependencies here
     ],
-    author="Sathish Jonnalagadda",
-    author_email="jojotime7x@gmail.com",
+    author="Vijayanand",
+    author_email="x22147802@student.ncirl.ie",
     description="A short description of your package",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/your-package",
+    url="https://github.com/x22147802/pollstats",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
