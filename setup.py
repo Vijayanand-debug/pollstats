@@ -2,10 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="pollstats",
-    version="0.1",
+    version="0.6",
     packages=find_packages(),
     install_requires=[
         # List your package's dependencies here
+
     ],
     author="Vijayanand",
     author_email="vijayanand563@gmail.com",
@@ -13,6 +14,7 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/Vijayanand-debug/pollstats",
+    include_package_data=True,
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",

@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'pollstatsassets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'pollstatsassets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'pollstatsassets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'pollstatsassets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'pollstatsassets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'pollstatsassets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'pollstatsassets/css/style.css' %}" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <!-- <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="/" class="logo d-flex align-items-center">
+        <span>onlinePoll</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="/">Home</a></li>
+          <li><a class="nav-link scrollto active" href="javascript:void(0)">Voting Page</a></li>
+          {% if user.is_superuser %}
+           <li><a class="nav-link scrollto" href="{% url 'create_campaign' %}">Create Campaign</a></li>
+           <li><a class="nav-link scrollto" href="{% url 'manage_events' %}">Manage Events</a></li>
+          {% endif %}
+          <li><a class="nav-link scrollto" href="#services">Library</a></li>
+          <li><a class="nav-link scrollto" href="{% url 'logout' %}">Logout</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header> -->
+
+  <main id="main">
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing mt-5">
+
+      <div class="container" data-aos="fade-up">
+
+      </div>
+
+    </section><!-- End Pricing Section -->
+
+
+
+  </main><!-- End #main -->
+  <!-- Vendor JS Files -->
+  <script src="{% static 'pollstatsassets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'pollstatsassets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'pollstatsassets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'pollstatsassets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'pollstatsassets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'pollstatsassets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'pollstatsassets/js/main.js' %}"></script>
+
+</body>
+
+</html>
